@@ -1,0 +1,44 @@
+[gd_scene load_steps=3 format=3 uid="uid://cdrhb81814cf7"]
+
+[ext_resource type="Texture2D" uid="uid://1bajw3ac2rxy" path="res://Img/craftpix-net-982312-free-simple-platformer-game-kit-pixel-art/2 Locations/Backgrounds/6.png" id="1_w68ol"]
+[ext_resource type="Script" path="res://win_screen.gd" id="1_wdb2w"]
+
+[node name="Win Screen" type="Node2D"]
+script = ExtResource("1_wdb2w")
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground"]
+position = Vector2(1280, 831.5)
+scale = Vector2(39.9688, 25.9844)
+texture = ExtResource("1_w68ol")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -306.0
+offset_top = 348.0
+offset_right = 2873.0
+offset_bottom = 697.0
+theme_override_font_sizes/font_size = 168
+text = "You Successfully Escaped!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 2.0
+offset_top = 669.0
+offset_right = 2559.0
+offset_bottom = 1018.0
+theme_override_font_sizes/font_size = 96
+text = "In this life, you jumped x times and collected x coins"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="."]
+offset_left = 648.0
+offset_top = 1056.0
+offset_right = 1919.0
+offset_bottom = 1372.0
+theme_override_font_sizes/font_size = 32
+text = "Proceed to next level? (I actually haven't coded the next level yet this is just a filler"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

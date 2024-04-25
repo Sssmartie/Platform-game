@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=3 uid="uid://c5todrrs7p1m6"]
+
+[ext_resource type="Texture2D" uid="uid://dkf87sfyitwiw" path="res://Img/craftpix-net-982312-free-simple-platformer-game-kit-pixel-art/3 Objects/Boxes/1_Idle.png" id="1_8l1l5"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rcgsy"]
+size = Vector2(49, 50)
+
+[sub_resource type="QuadMesh" id="QuadMesh_ufoox"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Corner8" type="Node2D" parent="."]
+rotation = 2.61799
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Corner8"]
+rotation = 2.61799
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Corner8/StaticBody2D"]
+rotation = 2.61799
+shape = SubResource("RectangleShape2D_rcgsy")
+
+[node name="Box" type="MeshInstance2D" parent="Corner8/StaticBody2D"]
+position = Vector2(0.0550223, 0.158959)
+rotation = 2.61799
+scale = Vector2(-71.1492, 72.232)
+mesh = SubResource("QuadMesh_ufoox")
+texture = ExtResource("1_8l1l5")

@@ -1,0 +1,45 @@
+[gd_scene load_steps=3 format=3 uid="uid://dwpmjd4dwpkjw"]
+
+[ext_resource type="Script" path="res://Init.gd" id="1_uow86"]
+[ext_resource type="Texture2D" uid="uid://uwep53hyvnn7" path="res://Img/craftpix-net-982312-free-simple-platformer-game-kit-pixel-art/2 Locations/Backgrounds/2.png" id="2_ei54x"]
+
+[node name="Init" type="Node2D"]
+script = ExtResource("1_uow86")
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground"]
+position = Vector2(1280, 831.5)
+scale = Vector2(39.9688, 25.9844)
+texture = ExtResource("2_ei54x")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -306.0
+offset_top = 348.0
+offset_right = 2873.0
+offset_bottom = 697.0
+theme_override_font_sizes/font_size = 168
+text = "Coin Grab"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 2.0
+offset_top = 669.0
+offset_right = 2559.0
+offset_bottom = 1018.0
+theme_override_font_sizes/font_size = 96
+text = "Grab as many coins as you can while maintaining the 
+least jumps!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="."]
+offset_left = 648.0
+offset_top = 1056.0
+offset_right = 1919.0
+offset_bottom = 1372.0
+theme_override_font_sizes/font_size = 96
+text = "Start Game"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
