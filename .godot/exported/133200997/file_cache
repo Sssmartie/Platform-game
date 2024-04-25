@@ -1,0 +1,9 @@
+res://default_bus_layout.tres::1f4e9767b92cb8fd2f3a3521a4a3f001::1706837227::res://.godot/exported/133200997/export-19246414aa9fb561ced4b8dce477acec-default_bus_layout.res
+res://platform.tscn::fcce0a738aa0963539a7bb1806ab76d3::1714064092::res://.godot/exported/133200997/export-991b5dfe9c806159464ca619fc6762df-platform.scn
+res://player.tscn::cd2ecf1a82000b8591f23bce927b1f7d::1714064092::res://.godot/exported/133200997/export-36a25e342948d0ceacc500772b5412b3-player.scn
+res://world.tscn::3c6ee771f458e255406e423bd204b6d5::1714064092::res://.godot/exported/133200997/export-76e0adcbc83681695885bae615f516ae-world.scn
+res://box.tscn::b454c15cf543a81e0c2133c9b372141e::1714064092::res://.godot/exported/133200997/export-0da9c88c1f789cfa891cd44f0340838c-box.scn
+res://coin.tscn::33d90ff7bf378dd2839ed35dade1aa05::1714064092::res://.godot/exported/133200997/export-2c627f0aeee2256356f1e6ba540049dd-coin.scn
+res://dead_screen.tscn::7522d533e14de13c4f6190eaa8abfc74::1714064092::res://.godot/exported/133200997/export-b44cade8607ae927e2d703a6b94f5d23-dead_screen.scn
+res://init.tscn::354218ae226cb2beb02ca0cc937b7339::1714064092::res://.godot/exported/133200997/export-a87057ddb80cf0bd78629a25bf34b6cd-init.scn
+res://win_screen.tscn::17f5e77398d602899783ec4d2ddf3241::1714064092::res://.godot/exported/133200997/export-2e7bd28c0b8763c6bca73934aafd1975-win_screen.scn

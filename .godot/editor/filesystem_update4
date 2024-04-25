@@ -1,0 +1,15 @@
+res://player.tscn
+res://Scripts/player.gd
+res://world.tscn
+res://platform.tscn
+res://box.tscn
+res://coin.tscn
+res://dead_screen.tscn
+res://dead_screen.gd
+res://world.gd
+res://global.gd
+res://win_screen.tscn
+res://win_screen.gd
+res://coin.gd
+res://Init.gd
+res://init.tscn
